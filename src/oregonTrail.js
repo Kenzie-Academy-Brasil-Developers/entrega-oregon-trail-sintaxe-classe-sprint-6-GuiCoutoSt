@@ -75,7 +75,7 @@ class Wagon {
   }
 
   totalFood = () => {
-    return this.passengers.reduce( (c, person) => c + person.food, 0);
+    return this.passengers.reduce( (c, person) => c + person._food, 0);
   }
 }
 
